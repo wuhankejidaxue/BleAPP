@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/disconnect"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="disconnect"/>
+		<!-- showAsAction将此item放置在标题栏 -->
+	<item 
+	    android:id="@+id/scan_start"
+	    android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="scan"/>
+
+</menu>
